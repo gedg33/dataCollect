@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <parent>
+    <groupId>org.eclipse.smarthome</groupId>
+    <artifactId>smarthome</artifactId>
+    <version>0.9.0-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.smarthome</groupId>
+  <artifactId>features</artifactId>
+
+  <name>Eclipse SmartHome Features</name>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>org.eclipse.smarthome.feature.runtime.core</module>
+    <module>org.eclipse.smarthome.feature.runtime.rest</module>
+    <module>org.eclipse.smarthome.feature.runtime.model</module>
+    <module>org.eclipse.smarthome.feature.runtime.ui</module>
+    <module>org.eclipse.smarthome.feature.runtime.automation</module>
+    <module>org.eclipse.smarthome.feature.runtime.console.equinox</module>
+    <module>org.eclipse.smarthome.feature.runtime.console.rfc147</module>
+    <module>org.eclipse.smarthome.feature.runtime.binding</module>
+    <module>org.eclipse.smarthome.feature.test</module>
+    <module>karaf</module>
+  </modules>
+
+</project>

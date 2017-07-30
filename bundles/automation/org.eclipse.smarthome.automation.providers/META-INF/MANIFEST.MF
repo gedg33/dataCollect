@@ -1,0 +1,20 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.smarthome.automation.providers
+Bundle-Vendor: Eclipse.org/SmartHome
+Bundle-Version: 0.9.0.qualifier
+Bundle-Name: Eclipse SmartHome Automation Providers
+Import-Package: 
+ org.eclipse.smarthome.automation,
+ org.eclipse.smarthome.automation.parser,
+ org.eclipse.smarthome.automation.template,
+ org.eclipse.smarthome.automation.type,
+ org.eclipse.smarthome.config.core,
+ org.eclipse.smarthome.config.core.i18n,
+ org.eclipse.smarthome.core.common.registry,
+ org.eclipse.smarthome.core.i18n,
+ org.osgi.framework,
+ org.osgi.service.packageadmin,
+ org.osgi.util.tracker,
+ org.slf4j
+Service-Component: OSGI-INF/*.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
